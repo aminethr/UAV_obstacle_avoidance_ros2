@@ -61,7 +61,7 @@ class ObstacleAvoidanceDirectNode(Node):
         self.deadzone = 0.1
         self.align_threshold = 0.15
 
-        self.current_speed = 0.0
+        self.current_speed = 2.0  # drone speed
         self.safety_margin = 5.0  # meters
 
     def velocity_callback(self, msg):
