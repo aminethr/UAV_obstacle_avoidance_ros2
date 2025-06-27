@@ -102,4 +102,9 @@ The node publishes a debug image to /debug/depth_regions. You can visualize it u
 rqt_image_view /debug/depth_regions
 
 ### 🚁 Simple Example
+
+Below is a basic demonstration of the obstacle avoidance system in action.
+
+📍 **Simulation Environment**: This example is tested in the **Gazebo 3D simulator** using **ArduPilot** with the **ArduCopter** firmware.
+
 ![Simple Example](https://github.com/user-attachments/assets/ec9d1004-d95a-4b22-b5bb-ba14ac0d94b3)
